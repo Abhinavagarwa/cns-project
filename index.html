@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" /> 
+</head>
+<body>
+  <div class="container">
+    <h2 class="heading">Enter Parameters</h2>
+    <div class="constraints">
+      <input type="number" id="v1" placeholder="Enter v at input" oninput="calculateHParameters()">
+      <input type="number" id="i1" placeholder="Enter i at input" oninput="calculateHParameters()">
+      <input type="number" id="v2" placeholder="Enter v at ouput" oninput="calculateHParameters()">
+      <input type="number" id="i2" placeholder="Enter i at output" oninput="calculateHParameters()">
+      <button onclick="calculateHParameters()">Calculate</button>
+    </div>
+    <div id="result">
+      <div class="parameter-box">
+        <p>H parameter: <span id="h-parameter"></span></p>
+      </div>
+      <div class="parameter-box">
+        <p>H11 parameter: <span id="h11-parameter"></span></p>
+      </div>
+      <div class="parameter-box">
+        <p>H12 parameter: <span id="h12-parameter"></span></p>
+      </div>
+      <div class="parameter-box">
+        <p>H21 parameter: <span id="h21-parameter"></span></p>
+      </div>
+      <div class="parameter-box">
+        <p>H22 parameter: <span id="h22-parameter"></span></p>
+      </div>
+    </div>    
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+*{
+  box-sizing: border-box;
+  padding: 0%;
+  display: flexbox;
+  margin-bottom: 70px;
+  margin-top: 35px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: radial-gradient(circle, #fff,#cfd485);
+}
+
+.container {
+  text-align: center;
+}
+
+.heading{
+  background: radial-gradient(circle, #fff,#cfd485);
+  color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 73px;
+  margin-top: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+.constraints{
+  background: radial-gradient(circle, #fff,#cfd485);
+  color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 73px;
+  margin-top: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #57a8ff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.7);
+}
+
+button:hover {
+  background-color: #98b1ca;
+  color: black;
+}
+
+#result {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around; /* Adjust spacing between boxes */
+}
+
+.parameter-box {
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.parameter-box p {
+  margin: 0; /* Remove default margin */
+}
+
+.parameter-box:not(:last-child) {
+  margin-right: 10px; /* Add spacing between boxes */
+}
